@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_graph"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.notes.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_signUp_to_forgotPass"
+            app:destination="@id/forgotPass" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.notes.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_login_to_forgotPass"
+            app:destination="@id/forgotPass" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPass"
+        android:name="com.example.notes.ForgotPass"
+        android:label="fragment_forgot_pass"
+        tools:layout="@layout/fragment_forgot_pass" >
+        <action
+            android:id="@+id/action_forgotPass_to_login"
+            app:destination="@id/login" />
+    </fragment>
+</navigation>

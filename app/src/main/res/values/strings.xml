@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="Welcome">Welcome</string>
+    <string name="title2">Add Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Title">TutorialKart</string>"
+    <string name="UserName">Enter User Name</string>
+    <string name="Password">Enter Password</string>
+    <string name="FP">Forgot Password</string>
+    <string name="Login">Login</string>
+    <string name="SignIn">Sign In</string>
+    <string name="NewAccount">Don\'t have an Account?</string>
+    <string name="OldAccount">Already Have an Account?</string>
+    <string name="cnf_pass">Enter Confirm Password</string>
+    <string name="set_pass">Set Password</string>
+    <string name="dash">DashBoard</string>
+
+</resources>
